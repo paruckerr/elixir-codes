@@ -1,4 +1,4 @@
-**ELIXIR CODES**
+<h1>Elixir Codes</h1>
 
 - Tuples ✅
 - Methods ✅
