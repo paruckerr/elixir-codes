@@ -9,3 +9,6 @@
 - List ✅
 - Nested For [Tuple, Tuple] ✅
 - Generate File ✅
+- Generate Docs ✅
+- Pipes ✅
+- Test Docs ✅
