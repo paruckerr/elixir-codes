@@ -23,7 +23,12 @@ defmodule Cards do
   end
 
   @doc """
-    Return list of strings representing a deck of playing cards
+    Determines wether a deck contains a given card
+
+  ## Examples
+      iex(1)> deck = Cards.create_deck
+      iex(2)> Cards.contains?(deck, "Ace of Spades")
+      true
   """
   def contains?(deck, card) do
     Enum.member?(deck, card)
