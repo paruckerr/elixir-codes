@@ -4,15 +4,15 @@ defmodule Identicon do
   """
 
   @doc """
-  Hello world.
+  To String
 
   ## Examples
 
-      iex> Identicon.hello()
-      :world
+      iex> Identicon.to_string('string')
+      iex> string
 
   """
-  def hello do
-    :world
+  def to_string(hash) do
+    hash
   end
 end
