@@ -4,15 +4,21 @@ defmodule Identicon do
   """
 
   @doc """
-  To String
+  Main sync all functions
 
   ## Examples
 
-      iex> Identicon.to_string('string')
-      iex> string
+      iex(1)> Identicon.main('string')
+      iex(2)> string
 
   """
-  def to_string(hash) do
-    hash
+  def main(input) do
+    input
+    |>hash_input
+  end
+
+  def hash_input(input) do
+    :crypto.hash(:md5, input)
+    |>:binary.bin_to_list
   end
 end
